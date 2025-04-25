@@ -1,0 +1,11 @@
+.simple-footer {
+    background-color: #F4F4F4; /* Cor de fundo */
+    color: var(--gray-light); /* Cor do texto */
+    text-align: center; /* Texto centralizado */
+    padding: 10px 0; /* Espaçamento interno */
+    font-size: 14px;
+  }
+  
+  .simple-footer p {
+    margin: 0; /* Remove margens padrão */
+  }

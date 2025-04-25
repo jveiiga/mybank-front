@@ -1,0 +1,122 @@
+/* Container principal */
+.container-t {
+    display: flex;
+  }
+  
+  /* Imagem */
+  .imagem-movimentacao {
+    width: 35%;
+  }
+  
+  /* Título */
+  .titulo {
+    margin-bottom: 40px;
+  }
+  
+  .titulo p {
+    color: var(--gray-light);
+  }
+  
+  /* Formulário */
+  .form-movimentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilo do input */
+  .input-container input {
+    width: 100%;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: 1px solid var(--gray-light);
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .input-container input:focus {
+    border: 2px solid var(--blue-primary);
+  }
+  
+  /* Estilo do label */
+  .input-container label {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: var(--gray-light);
+    transition: 0.2s ease all;
+    pointer-events: none;
+  }
+  
+  /* Label ao focar ou ao preencher o campo */
+  .input-container input:focus + label,
+  .input-container input:not(:placeholder-shown) + label {
+    top: -8px;
+    font-size: 12px;
+    color: var(--blue-primary);
+  }
+  
+  /* Botão */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--blue-primary);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--blue-secondary);
+  }
+  
+  /* Tabela */
+  .table-container {
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--gray-light);
+  }
+  
+  th {
+    background-color: var(--gray-dark);
+    color: white;
+  }
+  
+  td button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }

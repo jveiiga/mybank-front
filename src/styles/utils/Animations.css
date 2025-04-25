@@ -1,0 +1,30 @@
+/* Animações Globais */
+
+/* Transição de hover para botões */
+.button-hover {
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Suaviza a transição */
+  }
+  
+  .button-hover:hover {
+    background-color: var(--blue-accent); /* Muda a cor de fundo no hover */
+    transform: scale(1.05); /* Aumenta levemente o tamanho no hover */
+  }
+  
+  /* Transição de opacidade para links */
+  .link-hover {
+    transition: opacity 0.3s ease; /* Suaviza a opacidade ao passar o mouse */
+  }
+  
+  .link-hover:hover {
+    opacity: 0.7; /* Reduz a opacidade no hover */
+  }
+  
+  /* Efeito de borda animada para cartões */
+  .card-hover {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Suaviza o efeito de bordas e sombras */
+  }
+  
+  .card-hover:hover {
+    border-color: var(--blue-secondary); /* Muda a cor da borda no hover */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Adiciona sombra no hover */
+  }

@@ -1,0 +1,25 @@
+/* Cores */
+:root {
+    --blue-primary: #005CA9;
+    --blue-secondary: #006BB7;
+    --white: #FFFFFF;
+    --blue-dark: #101184;
+    --blue-mid: #0740A9;
+    --gray-dark: #333D49;
+    --blue-accent: #006BB7;
+    --gray-light: #606060;
+    --black: #000000;
+  
+    /* Fontes */
+    --font-primary: 'Nunito', sans-serif;
+    --font-secondary: 'Nunito Sans', sans-serif;
+
+    --font-size-xs: 0.75rem; /* Extra small (12px) */
+    --font-size-sm: 0.875rem; /* Small (14px) */
+    --font-size-md: 1rem; /* Medium (16px - padrão) */
+    --font-size-lg: 1.125rem; /* Large (18px) */
+    --font-size-xl: 1.25rem; /* Extra large (20px) */
+    --font-size-xxl: 1.5rem; /* Double extra large (24px) */
+    --font-size-xxxl: 2rem; /* Triple extra large (32px) */
+    --font-size-huge: 3rem; /* Huge (48px) */
+  }

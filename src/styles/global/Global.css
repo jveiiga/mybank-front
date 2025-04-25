@@ -1,0 +1,88 @@
+/* Importando as variáveis globais */
+@import './Variables.css';
+@import '../utils/Animations.css';
+
+/* Reset de estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* Define um tamanho base para fontes */
+  scroll-behavior: smooth; /* Comportamento suave ao rolar */
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--white);
+  color: var(--gray-dark);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--gray-light);
+}
+
+/* Botões */
+button {
+  font-family: var(--font-primary);
+  background-color: var(--blue-primary);
+  color: var(--white);
+  border: none;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--blue-accent);
+}
+
+button:disabled {
+  background-color: var(--gray-light);
+  cursor: not-allowed;
+}
+
+/* Imagens */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Listas */
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+}
+
+/* Cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  margin-bottom: 0.5rem;
+  color: var(--black);
+}
+
+/* Container padrão */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}

@@ -1,0 +1,57 @@
+.header {
+    width: 100%;
+    background-color: #fff; /* Cor de fundo do header */
+    border-bottom: 1px solid #ccc; /* Linha separadora */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 70%;
+  }
+  
+  .logo img {
+    height: 50px; /* Ajuste da altura do logo */
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    position: relative;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: var(--blue-primary); /* Cor ao passar o mouse */
+  }
+  
+  .link-hover.active .nav-link {
+    color: var(--blue-primary); /* Cor do link ativo */
+  }
+  
+  .link-hover.active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--blue-primary); /* Barra de destaque */
+  }

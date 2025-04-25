@@ -1,0 +1,141 @@
+.container-t {
+    display: flex;
+    /* border: 1px solid green; */
+}
+
+.imagem-pessoa {
+    width: 35%;
+}
+
+.container-t-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titulo {
+    margin-bottom: 60px;
+
+    & p {
+        color: var(--gray-light);
+    }
+}
+
+.form-pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    border: 1px solid var(--gray-light);
+    border-radius: 8px;
+    /* margin-bottom: 16px; */
+}
+
+.input-container-cpf {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+/* Container do input */
+.input-container {
+    position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+    margin-bottom: 40px;
+  }
+  
+  /* Estilo do input */
+  .input-container input {
+    width: 100%;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: 1px solid var(--gray-light);
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+    color: var(--gray-light);
+  }
+  
+  .input-container input:focus {
+    border: 2px solid var(--blue-primary);
+  }
+  
+  /* Estilo do label */
+  .input-container label {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: var(--gray-light);
+    transition: 0.2s ease all;
+    pointer-events: none; /* O label não interfere no clique */
+  }
+  
+  /* Label ao focar ou ao preencher o campo */
+  .input-container input:focus + label,
+  .input-container input:not(:placeholder-shown) + label {
+    top: -8px;
+    font-size: 12px;
+    color: var(--blue-primary); /* Cor do label ao subir */
+  }
+
+  .text-alert {
+    font-size: var(--font-size-xs);
+    color: var(--gray-light);
+  }
+
+  button {
+    width: 40%;
+  }
+
+ tr th {
+  text-align: center;
+ }
+
+ .dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode input,
+.dark-mode button,
+.dark-mode table {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #333333;
+}
+
+.darkmode-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.dark-mode .darkmode-toggle {
+  background-color: #333333;
+  color: #ffffff;
+}
