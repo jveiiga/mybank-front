@@ -1,7 +1,7 @@
 
 # Front-End do Teste Técnico
 
-Este projeto é o front-end do um sistema de movimentações. Ele permite que o usuários realize depósitos e retiradas, visualize o saldo e o extrato de suas contas bancárias.
+Este projeto é o front-end do sistema de movimentações, para garantir o bom funcionamento do front-end é importante fazer o clone do [back-end](https://github.com/jveiiga/mybank-app). Ele permite que o usuários realize depósitos e retiradas, visualize o saldo e o extrato de suas contas bancárias.
 
 ## 📸 Visão Geral
 
